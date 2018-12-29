@@ -119,6 +119,12 @@ header {
   margin: 0 auto;
   margin-top: 19px;
 }
+.main-form-btn span {
+  font-size: 22px;
+}
+.main-form-btn:hover {
+  box-shadow: 0px 11px 20px 0px rgba(20, 20, 21, 0.08);
+}
 .line {
   width: 30px;
   height: 4px;
@@ -210,6 +216,9 @@ section {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.process-box:hover {
+  box-shadow: 0px 0px 35px 0px rgba(20, 20, 21, 0.21);
+}
 .process-btn {
   position: absolute;
   border: none;
@@ -228,6 +237,9 @@ section {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
+}
+.process-btn:hover {
+  box-shadow: 0px 6px 14px 0px rgba(20, 20, 21, 0.09);
 }
 .btn-plus {
   width: 16px;
@@ -270,6 +282,9 @@ i.fa-camera-retro {
   transform: rotate(-15deg);
 }
 /* Works section */
+#works {
+  background-color: #fbfbfb;
+}
 .works-box {
   height: 360px;
   position: relative;
@@ -290,9 +305,9 @@ i.fa-camera-retro {
   align-items: center;
   -webkit-justify-content: center;
   -webkit-align-items: center;
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s;
+  -webkit-transition: all 0.9s;
+  -o-transition: all 0.9s;
+  transition: all 0.9s;
 }
 .signature:hover {
   opacity: 1;

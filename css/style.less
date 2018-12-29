@@ -14,13 +14,14 @@
 
 @base-black: #706b73;
 @base-red: #fc6744;
-@white: #fff;
+@white: #ffffff;
 @base-text: #626262;
 @bg-grey: #f5f5f5;
 @bg-tomi: #4eb2f7;
 @bg-koimona: #c049f8;
 @bg-koire: #817eff;
 @bg-lara: #f74770;
+@bg-works: #fbfbfb;
 
 	/* Base setting	*/
 
@@ -128,6 +129,12 @@ header {
 			display: block;
 			margin: 0 auto;
 			margin-top: 19px;
+			span {
+				font-size: 22px;
+			}
+			&:hover {
+				box-shadow: 0px 11px 20px 0px rgba(20, 20, 21, 0.08);
+			}
 		}
 	}
 }
@@ -218,6 +225,9 @@ section {
 			margin-top: 20px;
 			margin-bottom: 20px;
 		}
+		&:hover {
+			box-shadow: 0px 0px 35px 0px rgba(20, 20, 21, 0.21);
+		}
 	}
 	&-btn {
 		position: absolute;
@@ -236,6 +246,9 @@ section {
 		border-radius: 50px;
 		.opn-reg;
 		font-size: 16px;
+		&:hover{
+			box-shadow: 0px 6px 14px 0px rgba(20, 20, 21, 0.09);
+		}
 	}
 }
 .btn-plus {
@@ -283,7 +296,9 @@ i.fa-camera-retro {
 }
 
 	/* Works section */
-
+#works {
+		background-color: @bg-works;
+}
 .works-box {
 	height: 360px;
 	position: relative;
@@ -304,9 +319,9 @@ i.fa-camera-retro {
 	align-items: center;
 	-webkit-justify-content: center;
 	-webkit-align-items: center;
-	-webkit-transition: all 0.4s;
-	-o-transition: all 0.4s;
-	transition: all 0.4s;
+	-webkit-transition: all 0.9s;
+	-o-transition: all 0.9s;
+	transition: all 0.9s;
 	
 	&:hover {
 		opacity: 1;
