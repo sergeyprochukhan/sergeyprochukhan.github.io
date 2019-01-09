@@ -11,7 +11,6 @@
 	}
 
 	/* Base color */
-
 @base-black: #706b73;
 @base-red: #fc6744;
 @white: #ffffff;
@@ -24,7 +23,6 @@
 @bg-works: #fbfbfb;
 
 	/* Base setting	*/
-
 body {
 	font-size: 14px;
 	.opn-reg;
@@ -41,12 +39,14 @@ header {
 	min-height: 820px;
 	height: 100vh;
 }
-/* Main screen */
 
+	/* Main screen */
 .main {
 	&-head	{
 		padding: 4%;
 	}
+	
+	/* Logotype */
 	&-logo-border {
 		width: 155px;
 		height: 55px;
@@ -62,6 +62,8 @@ header {
 			}
 		}	
 	}
+
+	/* Navigation panel */	 
 	&-nav-bar {
 		width: 55px;
 		position: relative;
@@ -348,4 +350,49 @@ i.fa-camera-retro {
 }
 .works-row {
 	margin-top: 3%;
+}
+.services {
+	&-list {
+		list-style: none;
+		&-item {
+			display: block;
+			margin: 5px auto;
+			width: 100px;
+			height: 100px;
+			text-align: center;
+			background: @bg-works;
+		}
+	}
+	&-line {
+		width: 60px;
+		height: 4px;
+		background-color:@base-red;
+		display: inline-block;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	&-btn {
+		border: none;
+		
+		color: @base-black;
+		background-color: @white;
+		padding: 15px 55px;
+		-webkit-border-radius: 50px;
+		-moz-border-radius: 50px;
+		-ms-border-radius: 50px;
+		-o-border-radius: 50px;
+		border-radius: 50px;
+		.opn-reg;
+		font-size: 16px;
+		box-shadow: 0px 6px 14px 0px rgba(20, 20, 21, 0.09);
+
+	}
+	&-info {
+		h4 {
+			font-size: 30px;
+		}
+		p {
+			font-size: 16px;
+		}
+	}
 }
