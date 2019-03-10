@@ -343,8 +343,6 @@ i.fa-camera-retro {
 .services-list-item {
   display: block;
   margin: 5px auto;
-  width: 100px;
-  height: 100px;
   text-align: center;
   background: #fbfbfb;
 }
@@ -376,4 +374,21 @@ i.fa-camera-retro {
 }
 .services-info p {
   font-size: 16px;
+}
+.panel-default > .panel-heading h4 {
+  color: #fc6744;
+}
+#feedback {
+  background-color: #fbfbfb;
+}
+.feedback-box img {
+  width: 128px;
+  height: 128px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
 }
