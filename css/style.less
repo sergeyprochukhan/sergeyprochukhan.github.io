@@ -21,7 +21,7 @@
 @bg-koire: #817eff;
 @bg-lara: #f74770;
 @bg-works: #fbfbfb;
-
+@yellow: #ffef3b;
 	/* Base setting	*/
 body {
 	font-size: 14px;
@@ -404,6 +404,20 @@ i.fa-camera-retro {
 }
 .feedback {
 	&-box {
+		margin-left: 15px;
+		padding-right: 15px;
+		padding: 10px;
+		p {
+			font-size: 17px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			padding-left: 30px;
+			padding-right: 30px;
+			span {
+				.opn-bold;
+			}
+		}
+
 		img {
 			width: 128px;
 			height: 128px;
@@ -414,6 +428,24 @@ i.fa-camera-retro {
 			border-radius: 50%;
 			display: block; 
 			margin: 0 auto;
+			margin-bottom: -64px;
+		}
+		i.fa-star {
+			color: @yellow;
 		}
 	}	
+	&-shadow {
+		padding: 10px;
+		padding-top: 64px;
+		box-shadow: 0px 0px 27px 0px rgba(20, 20, 21, 0.09);
+	}
+}
+.slick-slider {
+	outline: none;
+}
+.arrow-left {
+	left: 0;
+}
+.arrow-right {
+	right: 0;
 }
